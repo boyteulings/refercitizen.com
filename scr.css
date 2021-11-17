@@ -1,0 +1,47 @@
+body {
+	background-color: black;
+	background-image: url("images/background.jpg");
+}
+
+.title {
+	margin: 25px;
+	font-family: 'Orbitron', sans-serif;
+	color: white;
+	font-weight: 700;
+}
+
+.enlist {
+	display: block;
+	margin: auto;
+	margin-top: 150px;
+	width: 120px;
+	padding: 20px;
+	text-align: center;
+	border: 2px solid #42EDF8;
+	border-radius: 5px;
+	font-family: 'Orbitron', sans-serif;
+	color: white;
+	background-color: #0C67A1;
+	font-weight: 700;
+}
+
+.enlist:hover {
+	color: darkblue;
+	border: 2px solid darkblue;
+	background-color: #42EDF8;
+}
+
+.h2title {
+	display: block;
+	border: 2px solid #42EDF8;
+	border-radius: 5px;
+	background: rgba(0, 0, 0, 0.5);
+	color: white;
+	width: 400px;
+	height: 30px;
+	padding: 20px;
+	text-align: center;
+	margin: auto;
+	margin-top: 80px;
+	font-family: 'Orbitron', sans-serif;
+
