@@ -3,6 +3,10 @@ body {
 	background-image: url("images/background.jpg");
 }
 
+.main {
+	position: relative;
+}
+
 .title {
 	margin: 25px;
 	font-family: 'Orbitron', sans-serif;
@@ -23,6 +27,7 @@ body {
 	color: white;
 	background-color: #0C67A1;
 	font-weight: 700;
+	text-decoration: none;
 }
 
 .enlist:hover {
@@ -37,13 +42,15 @@ body {
 	border-radius: 5px;
 	background: rgba(0, 0, 0, 0.5);
 	color: white;
-	width: 400px;
+	width: 50%;
 	height: 30px;
 	padding: 20px;
 	text-align: center;
 	margin: auto;
+	padding-top: 3%;
 	margin-top: 50px;
 	font-family: 'Orbitron', sans-serif;
+	font-size: 100%;
 }
 
 .whatis {
@@ -51,7 +58,8 @@ body {
 	color: white;
 	display: block;
 	border-radius: 12px;
-	width: 800px;
+	width: 90%;
+	max-width: 800px;
 	margin: auto;
 	padding: 25px;
 	text-align: center;
@@ -59,6 +67,7 @@ body {
 
 .text {
 	margin: 15px;
+	font-family: 'Electrolize', sans-serif;
 }
 
 .refcode {
@@ -67,11 +76,30 @@ body {
 	border-radius: 5px;
 	background: rgba(0, 0, 0, 0.5);
 	color: white;
-	width: 400px;
-	height: 30px;
-	padding: 25px;
+	width: 50%;
+	height: 25px;
+	padding: 3%;
 	text-align: center;
 	margin: auto;
 	margin-top: 50px;
 	font-family: 'Orbitron', sans-serif;
+	font-weight: 500;
+	text-decoration: none;
+}
+
+.refcode:hover {
+	background: rgba(0, 100, 255, 0.7);
+}
+
+footer {
+	margin: auto;
+	width: 15%;
+	text-align: center;
+	margin-top: 5%;
+}
+.email {
+	color: lightgrey;
+	font-family: 'Electrolize', sans-serif;
+	text-decoration: none;
+	opacity: 0.6;
 }
