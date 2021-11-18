@@ -13,7 +13,7 @@ body {
 .enlist {
 	display: block;
 	margin: auto;
-	margin-top: 150px;
+	margin-top: 80px;
 	width: 120px;
 	padding: 20px;
 	text-align: center;
@@ -42,6 +42,36 @@ body {
 	padding: 20px;
 	text-align: center;
 	margin: auto;
-	margin-top: 80px;
+	margin-top: 50px;
 	font-family: 'Orbitron', sans-serif;
+}
 
+.whatis {
+	background:rgba(0, 0, 0, 0.5);
+	color: white;
+	display: block;
+	border-radius: 12px;
+	width: 800px;
+	margin: auto;
+	padding: 25px;
+	text-align: center;
+}
+
+.text {
+	margin: 15px;
+}
+
+.refcode {
+	display: block;
+	border: 2px solid #42EDF8;
+	border-radius: 5px;
+	background: rgba(0, 0, 0, 0.5);
+	color: white;
+	width: 400px;
+	height: 30px;
+	padding: 25px;
+	text-align: center;
+	margin: auto;
+	margin-top: 50px;
+	font-family: 'Orbitron', sans-serif;
+}
