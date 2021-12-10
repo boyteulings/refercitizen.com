@@ -103,3 +103,8 @@ footer {
 	text-decoration: none;
 	opacity: 0.6;
 }
+
+a:hover {
+	color: white;
+	opacity: 1;
+}
