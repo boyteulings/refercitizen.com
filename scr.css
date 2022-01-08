@@ -1,6 +1,6 @@
 body {
 	background-color: black;
-	background-image: url("images/background.jpg");
+	background-image: url("images/background.webp");
 }
 
 .main {
@@ -42,15 +42,28 @@ body {
 	border-radius: 5px;
 	background: rgba(0, 0, 0, 0.5);
 	color: white;
-	width: 50%;
-	height: 30px;
-	padding: 20px;
+	width: 80%;
+	padding: 3%;
 	text-align: center;
 	margin: auto;
 	padding-top: 3%;
-	margin-top: 50px;
+	margin-bottom: 20px;
 	font-family: 'Orbitron', sans-serif;
 	font-size: 100%;
+}
+
+/* for screens of at least 311px wide */
+@media only screen and (min-width: 311px) {
+	.h2title {
+		width: 70%;
+	}
+}
+
+/* for screens of at least 637px wide */
+@media only screen and (min-width: 637px) {
+	.h2title {
+		width: 50%;
+	}
 }
 
 .whatis {
@@ -58,7 +71,6 @@ body {
 	color: white;
 	display: block;
 	border-radius: 12px;
-	width: 90%;
 	max-width: 800px;
 	margin: auto;
 	padding: 25px;
@@ -76,15 +88,27 @@ body {
 	border-radius: 5px;
 	background: rgba(0, 0, 0, 0.5);
 	color: white;
-	width: 50%;
-	height: 25px;
+	width: 80%;
 	padding: 3%;
 	text-align: center;
 	margin: auto;
-	margin-top: 50px;
 	font-family: 'Orbitron', sans-serif;
 	font-weight: 500;
 	text-decoration: none;
+}
+
+/* for screens of at least 311px wide */
+@media only screen and (min-width: 311px) {
+	.refcode {
+		width: 70%;
+	}
+}
+
+/* for screens of at least 637px wide */
+@media only screen and (min-width: 637px) {
+	.refcode {
+		width: 30%;
+	}
 }
 
 .refcode:hover {
