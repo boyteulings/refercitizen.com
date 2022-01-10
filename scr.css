@@ -17,7 +17,7 @@ body {
 .enlist {
 	display: block;
 	margin: auto;
-	margin-top: 80px;
+	margin-top: 3%;
 	width: 120px;
 	padding: 20px;
 	text-align: center;
@@ -46,8 +46,6 @@ body {
 	padding: 3%;
 	text-align: center;
 	margin: auto;
-	padding-top: 3%;
-	margin-bottom: 20px;
 	font-family: 'Orbitron', sans-serif;
 	font-size: 100%;
 }
@@ -73,13 +71,32 @@ body {
 	border-radius: 12px;
 	max-width: 800px;
 	margin: auto;
-	padding: 25px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-left: 5px;
+	padding-right: 5px;
 	text-align: center;
 }
 
+@media only screen and (min-width: 637px) {
+	.whatis {
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+}
+
 .text {
-	margin: 15px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: 5px;
+	margin-right: 5px;
 	font-family: 'Electrolize', sans-serif;
+}
+
+@media only screen and (min-width: 637px) {
+	.text {
+		margin: 15px;
+	}
 }
 
 .refcode {
@@ -128,6 +145,9 @@ footer {
 	opacity: 0.6;
 }
 
+a {
+	color: #62d1fd;
+}
 a:hover {
 	color: white;
 	opacity: 1;
